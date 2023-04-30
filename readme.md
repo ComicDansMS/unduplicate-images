@@ -12,6 +12,15 @@ The script is compatible with Python 3.6 and above.
 - Creates a log file listing the paths of all duplicate images
 - Displays a progress bar in the terminal
 
+## Supported Image Formats
+
+The script supports the following image formats:
+
+- JPEG (both `.jpg` and `.jpeg` extensions)
+- PNG (`.png`)
+- GIF (`.gif`)
+- WebP (`.webp`)
+
 ## How to use
 
 1. Make sure you have Python 3.6 or later installed on your system.

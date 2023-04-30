@@ -31,7 +31,7 @@ def find_duplicates_and_copy(src, dest, duplicates_path):
 
     for root, _, files in os.walk(src):
         for file in files:
-            if not file.lower().endswith((".jpg", ".png", ".gif", ".jpeg")):
+            if not file.lower().endswith((".jpg", ".png", ".gif", ".jpeg", ".webp")):
                 continue
             src_path = os.path.join(root, file)
             dest_path = os.path.join(dest, os.path.relpath(src_path, start=src))
